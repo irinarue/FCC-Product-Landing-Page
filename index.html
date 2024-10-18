@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="https://static.vecteezy.com/ti/gratis-vektor/t1/4289691-frau-gesicht-einzeln-linienzeichnung-mit-blumen-kontinuierliche-linienkunst-ein-blumenstrauss-in-einer-frau-s-kopf-einzellinie-kunst-naturliche-kosmetik-einfach-schwarz-weiss-malerei-artwork-vektor.jpg" alt="Flowerhead">
+        <h1>Flowerhead</h1><hr id="headLine">
+        <nav id="nav-bar">
+            <hr class="navLine"><a class="nav-link" href="#values">Values</a><hr class="navLine">
+            <a class="nav-link" href="#products">Products</a><hr class="navLine">
+            <a class="nav-link" href="#more">More</a><hr class="navLine">
+        </nav>
+    </header>
+    <main>
+        <section id="values">
+            <h2>Our Values</h2>
+            <p>Our core values highlight our commitment to being green, ethical, and waste-conscious for a greener future</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><img class="tableImg" src="https://media.istockphoto.com/id/1443517915/video/green-earth-concept-of-saving-the-planet-transparent-background-line-icon-animation.jpg?s=640x640&k=20&c=QjYzKSaqYGO9DnfK_zH_ooSTA3nqJi0uOXN_JcjOR8I=" alt=""></td>
+                        <td class="tableText"><span class="value">Sustainability</span>Use local, organic flowers and eco-friendly packaging to protect the planet.</td>
+                    </tr>
+                    <tr>
+                        <td><img class="tableImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbPwpYtN3elqhnzB6Yy-FAOeOCRAs-rTTpsA&s" alt=""></td>
+                        <td class="tableText"><span class="value">Fair Trade</span>Support ethical farms that treat workers fairly and care for the environment.</td>
+                    </tr>
+                    <tr>
+                        <td><img class="tableImg" src="https://static.vecteezy.com/system/resources/previews/011/911/187/original/black-and-white-recycle-icon-with-transparent-background-png.png" alt=""></td>
+                        <td class="tableText"><span class="value">Reduce Waste</span>Minimize waste by composting, reusing materials, and encouraging customers to recycle.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div id="videoContainer"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embeded/saSTO0FTa64" frameborder="0" allowfullscreen>Our Shop</iframe></div>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div id="container">
+                <div class="box">
+                    <p class="product">Single Flowers</p>
+                    <img class="flowerImg" src="https://i.pinimg.com/236x/16/b8/29/16b829559897defa775756a8c000e34c.jpg" alt="Flower icon">
+                    <button class="price" type="button">From 12.-</button>
+                </div>
+                <div class="box">
+                    <p class="product">Bouquets</p>
+                    <img class="flowerImg" src="https://img.freepik.com/vektoren-premium/blumenstrauss-aus-einfachen-blumen_422871-604.jpg?w=740" alt="Bouquet icon">
+                    <button class="price" type="button">From 21.-</button>
+                </div>
+                <div class="box">
+                    <p class="product">Flower arrangements</p>
+                    <img class="flowerImg" src="https://cdn-thumbs.ohmyprints.net/1/98e8a1d2ad9ae48a27b70436619dd78d/817x600/thumbnail/fit.jpg" alt="Flower arrangement icon">
+                    <button class="price" type="button">From 62.-</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="more">
+            <h2>More</h2>
+            <p>Are you interested in getting weekly fresh flowery updates to fill your head and day with happiness?</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <fieldset>
+                    <legend>NEWSLETTER</legend>
+                    <label for="email">Sign up now: <input type="email" id="email" name="email" placeholder=" e.g.: mail@flowerhead.com"></label>
+                    <input id="submit" type="submit" value="subscribe">subscribe</input>
+                </fieldset>
+            </form>
+            <img id="lastImg" src="https://img.freepik.com/vektoren-premium/kunst-illustration_422871-44.jpg" alt="meadow drawing" width="100%">
+            <hr id="lastLine">
+        </section>
+    </main>
+    
+</body>
+</html>
